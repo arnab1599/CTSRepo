@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-12T14:02:45Z" name="Suite" finished-at="2021-05-12T14:03:43Z" duration-ms="58402">
+    <groups>
+      <group name="getURL">
+        <method signature="TC2_LaunchURL.getURL()[pri:0, instance:testcases.TC2_LaunchURL@3e96bacf]" name="getURL" class="testcases.TC2_LaunchURL"/>
+      </group> <!-- getURL -->
+      <group name="selDriver">
+        <method signature="TC1_BrowserSelect.selDriver()[pri:0, instance:testcases.TC1_BrowserSelect@3571b748]" name="selDriver" class="testcases.TC1_BrowserSelect"/>
+      </group> <!-- selDriver -->
+      <group name="popModels">
+        <method signature="TC4_UsedCars.popularModels()[pri:2, instance:testcases.TC4_UsedCars@484970b0]" name="popularModels" class="testcases.TC4_UsedCars"/>
+        <method signature="TC4_UsedCars.usedCarsChn()[pri:1, instance:testcases.TC4_UsedCars@484970b0]" name="usedCarsChn" class="testcases.TC4_UsedCars"/>
+      </group> <!-- popModels -->
+      <group name="upBikes">
+        <method signature="TC3_UpcomingBikes.displayingDetails()[pri:5, instance:testcases.TC3_UpcomingBikes@7c83dc97]" name="displayingDetails" class="testcases.TC3_UpcomingBikes"/>
+        <method signature="TC3_UpcomingBikes.hondaBikesDetail()[pri:3, instance:testcases.TC3_UpcomingBikes@7c83dc97]" name="hondaBikesDetail" class="testcases.TC3_UpcomingBikes"/>
+        <method signature="TC3_UpcomingBikes.makeHonda()[pri:2, instance:testcases.TC3_UpcomingBikes@7c83dc97]" name="makeHonda" class="testcases.TC3_UpcomingBikes"/>
+        <method signature="TC3_UpcomingBikes.newUpcomingBikes()[pri:1, instance:testcases.TC3_UpcomingBikes@7c83dc97]" name="newUpcomingBikes" class="testcases.TC3_UpcomingBikes"/>
+        <method signature="TC3_UpcomingBikes.sortingDetails()[pri:4, instance:testcases.TC3_UpcomingBikes@7c83dc97]" name="sortingDetails" class="testcases.TC3_UpcomingBikes"/>
+      </group> <!-- upBikes -->
+    </groups>
+    <test started-at="2021-05-12T14:02:45Z" name="Test" finished-at="2021-05-12T14:03:43Z" duration-ms="58402">
+      <class name="testcases.TC3_UpcomingBikes">
+        <test-method signature="newUpcomingBikes()[pri:1, instance:testcases.TC3_UpcomingBikes@7c83dc97]" started-at="2021-05-12T14:03:12Z" name="newUpcomingBikes" depends-on-groups="getURL" finished-at="2021-05-12T14:03:14Z" duration-ms="1868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUpcomingBikes -->
+        <test-method signature="makeHonda()[pri:2, instance:testcases.TC3_UpcomingBikes@7c83dc97]" started-at="2021-05-12T14:03:14Z" name="makeHonda" depends-on-groups="getURL" finished-at="2021-05-12T14:03:17Z" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeHonda -->
+        <test-method signature="hondaBikesDetail()[pri:3, instance:testcases.TC3_UpcomingBikes@7c83dc97]" started-at="2021-05-12T14:03:17Z" name="hondaBikesDetail" depends-on-groups="getURL" finished-at="2021-05-12T14:03:18Z" duration-ms="1591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hondaBikesDetail -->
+        <test-method signature="sortingDetails()[pri:4, instance:testcases.TC3_UpcomingBikes@7c83dc97]" started-at="2021-05-12T14:03:18Z" name="sortingDetails" depends-on-groups="getURL" finished-at="2021-05-12T14:03:18Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingDetails -->
+        <test-method signature="displayingDetails()[pri:5, instance:testcases.TC3_UpcomingBikes@7c83dc97]" started-at="2021-05-12T14:03:18Z" name="displayingDetails" depends-on-groups="getURL" finished-at="2021-05-12T14:03:24Z" duration-ms="6071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayingDetails -->
+      </class> <!-- testcases.TC3_UpcomingBikes -->
+      <class name="testcases.TC4_UsedCars">
+        <test-method signature="usedCarsChn()[pri:1, instance:testcases.TC4_UsedCars@484970b0]" started-at="2021-05-12T14:03:24Z" name="usedCarsChn" depends-on-groups="upBikes" finished-at="2021-05-12T14:03:29Z" duration-ms="4259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCarsChn -->
+        <test-method signature="popularModels()[pri:2, instance:testcases.TC4_UsedCars@484970b0]" started-at="2021-05-12T14:03:29Z" name="popularModels" depends-on-groups="upBikes" finished-at="2021-05-12T14:03:32Z" duration-ms="3539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularModels -->
+      </class> <!-- testcases.TC4_UsedCars -->
+      <class name="testcases.TC2_LaunchURL">
+        <test-method signature="getURL()[pri:0, instance:testcases.TC2_LaunchURL@3e96bacf]" started-at="2021-05-12T14:03:01Z" name="getURL" depends-on-groups="selDriver" finished-at="2021-05-12T14:03:12Z" duration-ms="11114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+      </class> <!-- testcases.TC2_LaunchURL -->
+      <class name="testcases.TC1_BrowserSelect">
+        <test-method is-config="true" signature="userInput()[pri:0, instance:testcases.TC1_BrowserSelect@3571b748]" started-at="2021-05-12T14:02:45Z" name="userInput" finished-at="2021-05-12T14:02:56Z" duration-ms="11286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInput -->
+        <test-method signature="selDriver()[pri:0, instance:testcases.TC1_BrowserSelect@3571b748]" started-at="2021-05-12T14:02:56Z" name="selDriver" finished-at="2021-05-12T14:03:01Z" duration-ms="5182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selDriver -->
+        <test-method is-config="true" signature="closeScQuitBrowser()[pri:0, instance:testcases.TC1_BrowserSelect@3571b748]" started-at="2021-05-12T14:03:41Z" name="closeScQuitBrowser" finished-at="2021-05-12T14:03:43Z" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeScQuitBrowser -->
+      </class> <!-- testcases.TC1_BrowserSelect -->
+      <class name="testcases.TC5_GoogleSignIn">
+        <test-method signature="signUp()[pri:1, instance:testcases.TC5_GoogleSignIn@4470f8a6]" started-at="2021-05-12T14:03:32Z" name="signUp" depends-on-groups="popModels" finished-at="2021-05-12T14:03:41Z" duration-ms="8682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="screenshotErrMsg()[pri:2, instance:testcases.TC5_GoogleSignIn@4470f8a6]" started-at="2021-05-12T14:03:41Z" name="screenshotErrMsg" depends-on-groups="popModels" finished-at="2021-05-12T14:03:41Z" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotErrMsg -->
+      </class> <!-- testcases.TC5_GoogleSignIn -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
